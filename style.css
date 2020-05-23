@@ -1,0 +1,320 @@
+html
+{
+    height: 100%;
+}
+
+body
+{
+    background-color: #000000;
+    background-image: url(img/bg.jpg);
+    background-attachment: scroll;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+img
+{
+    border-style: none;
+}
+
+div#main a:link
+{
+    color: #CACAEE;    
+}
+
+div#main a:visited
+{
+    color: #CACAEE;
+}
+
+div#main a:hover
+{
+    background-color: #9090A0;
+}
+
+#distance
+{
+    height: 50%;
+}
+
+#inner_body
+{
+    width: 920px;
+    height: 600px;
+    top: -300px;
+    position: relative;
+    margin: 0 auto;
+    padding-left: 22px;
+}
+
+#header
+{
+    margin: 0 0 5px -4px;
+    text-align: left;
+}
+
+#menu
+{
+    top: 10px;
+    position: relative;
+    width: 165px;
+    height: 480px;
+    float: left;
+    margin: 0 0 0 0;
+}
+
+#main
+{
+    width: 755px;
+    height: 480px;
+    float: left;
+    color: #FAF5A1;
+    font-family: Candara, Sans-Serif;
+    margin: 0 0 0 0;
+}
+
+#text_area
+{
+    width: 721px;
+    height: 100%;
+    margin-left: 22px;
+    margin-top: 22px;
+    margin-right: 12px;
+    margin-bottom: 22px;
+}
+
+.text_frame_bg
+{
+    width: 773px;
+    height: 480px;
+    position: absolute;
+    z-index: -1;
+}
+
+#about_details
+{
+    padding-top: 10px;
+    line-height: 145%;
+    font-size: 105%;
+}
+
+#info_left
+{
+    float: left;    
+}
+
+#info_bottom
+{
+    clear: both;
+}
+
+p.info_list
+{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+ul.info_list
+{
+    padding-top: 0;
+    margin-top: 0;
+    border-top: 0;
+    list-style-type: none;
+    list-style-image: url("img/li_star.png");
+    list-style-position: outside;   
+}
+
+#info_right
+{
+    float: right;
+}
+
+#application_form
+{
+    width: 600px;
+    margin: 0 auto 30px;
+    color: #DDD5C8;
+}
+
+#application_form_description
+{
+    float: left;
+    width: 320px;
+    line-height: 23px;
+}
+
+#application_form_inputs
+{
+    float: right;
+    width: 280px;
+}
+
+#application_form_submit
+{
+    clear: both;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.menu_item
+{
+    margin: 0 0 0 0px;
+    text-align: right;
+}
+
+.motivation_text
+{
+    text-align: center;
+    /*font-weight: bold;*/
+    font-size: 117%;
+    color: #DDD5C8;
+}
+
+.motivation_image
+{
+    width: 192px;
+    height: 284px;
+    float: left;
+    position: relative;
+    left: -10px;
+}
+
+.emphasis
+{
+    font-weight: bold;
+}
+
+.headline
+{
+    font-weight: bold;
+    color: #DDD5C8;
+}
+
+.emphasis_positive
+{
+    font-weight: bold;
+    color: Green;
+    text-align: center;
+}
+
+.emphasis_negative
+{
+    font-weight: bold;
+    color: Red;
+    text-align: center;
+}
+
+.centered_notice
+{
+    font-style: italic;
+    text-align: center;
+    color: #DDD5C8;
+}
+
+.application_text
+{
+    color: #DDD5C8;
+}
+
+.notice
+{
+    font-style: italic;
+    font-size: 90%;
+}
+
+.address
+{
+    font-family: Courier;
+    /*line-height: 150%;*/
+}
+
+.crew_image
+{
+    width: 89px;
+    height: 104px;
+    margin-right: 3px;
+    padding: 0;
+}
+
+.crew_image_active
+{
+    width: 130px;
+    height: 152px;
+    margin-right: 3px;
+    padding: 0;
+}
+
+#crew_photo
+{
+    margin-bottom: 5px;
+}
+
+#crew_name
+{
+    color: #DDD5C8;
+}
+
+#crew_text
+{
+    /*width: 650px;*/
+    margin: 0 auto;    
+}
+
+div#crew_photo a:hover
+{
+    background-color: transparent;
+}
+
+div#crew_text p
+{
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+#method_img_1
+{
+    margin-right: 15px;
+    float: left; 
+    width: 275px;
+    height: 196px;
+}
+
+#method_img_2
+{
+    margin-left: 15px;
+    margin-right: 15px;
+    float: right;
+    width: 290px;
+    height: 168px; 
+}
+
+#method_citation
+{
+    font-size: 90%;
+    font-style: italic;
+}
+
+.news_image
+{
+    text-align: center;
+    margin: 10px 10px 10px 10px; 
+}
+
+.hidden 
+{
+    visibility: hidden;
+    display: none;
+}
+
+.unhidden
+{
+    visibility: visible;
+    display: inline;
+}
